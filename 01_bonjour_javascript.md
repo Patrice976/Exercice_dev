@@ -141,4 +141,6 @@ L’objectif de cet exercice est de :
 <br/>
 
 **BRAVO** 🎉 
-Tu es allé·e au bout de l’exercice ! N’hésite pas à nous faire tes retours si tu l’as trouvé difficile.
+Tu es allé·e au bout de l’exercice !
+
+Tu as aimé faire cet exercice ou tu as des retours à nous faire ? [Clique ici !](https://airtable.com/appXbfdqY0iZhnZgd/shrbWiQDMsH63nsj4)
