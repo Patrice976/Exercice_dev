@@ -1,0 +1,63 @@
+h1 {
+    text-align: center;
+}
+
+body {
+background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,202,70,1) 100%);
+}
+
+#boutontxt { 
+	box-shadow: 18px 13px 9px 3px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:30px;
+	border:2px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:26px;
+	font-weight:bold;
+	padding:13px 56px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+    align-items: center;
+    position : absolute;
+    top: 50% ; left: 25% ; 
+}
+#boutontxt:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+#boutontxt:active {
+	padding: 15px 60px; 
+}
+
+#boutonmrs{
+	box-shadow: 18px 13px 9px 3px #d0d4e0;
+	background:linear-gradient(to bottom, #0c2654 5%, #227ae6 100%);
+	background-color:#0c2654;
+	border-radius:30px;
+	border:2px solid #7789bd;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:26px;
+	font-weight:bold;
+	padding:13px 56px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a0a7b8;
+    position : absolute;
+    top: 50% ; left: 55% 
+}
+#boutonmrs:hover {
+	background:linear-gradient(to bottom, #227ae6 5%, #0c2654 100%);
+	background-color:#227ae6;
+}
+#boutonmrs:active {
+	padding: 15px 60px ; 
+}
+
+        
