@@ -1,0 +1,159 @@
+body { 
+    font-size : 1.3em ;
+    margin-left : 5% ; 
+    margin-right : 5% ;
+    margin-top : auto ; 
+    margin-bottom : 5%; 
+    line-height: 1.5;
+    background-color: #C85918;
+}
+h1 { 
+    font-size : 1.8em
+}
+img {
+    height :150px ; 
+    width : auto ; 
+    max-width :80% ; 
+    
+}
+
+figure {
+    margin: 0 ;
+    padding : 2% ;
+    margin : 2% ;
+    width : 45dvh ; 
+    border-radius: 15%;
+    background : black ;
+    color : white ;
+    display : flex ; 
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+    
+}
+
+.personnages {
+    display: grid ; 
+    grid-template-columns: auto auto  ;
+    margin-left : 20%; 
+}
+
+@media (max-width : 1622.22px ) {
+    body { 
+        font-size : 1.3em ;
+        margin-left : 5% ; 
+        margin-right : 5% ;
+        margin-top : auto ; 
+        margin-bottom : 5%; 
+        line-height: 1.5;
+        background-color: #9E96C9;
+    }
+    h1 { 
+        font-size : 1.8em
+    }
+    img {
+        height :150px ; 
+        width : auto ; 
+        max-width :80% ; 
+        
+    }
+    
+    figure {
+        margin: 0 ;
+        padding : 2% ;
+        margin : 2% ;
+        width : 45dvh ; 
+        border-radius: 15%;
+        background : black ;
+        color : white ;
+        display : grid;
+        
+    }
+    
+    .personnages {
+        display: grid ; 
+        grid-gap: 2em;
+        grid-template-columns: auto auto;
+        margin-left : 10%
+    }
+}
+
+@media (max-width : 933px ) {
+    body { 
+        font-size : 1.3em ;
+        margin-left : 5% ; 
+        margin-right : 5% ;
+        margin-top : auto ; 
+        margin-bottom : 5%; 
+        line-height: 1.5;
+        background-color: #D29A6D
+    }
+    h1 { 
+        font-size : 1.8em
+    }
+    img {
+        height :150px ; 
+        width : auto ; 
+        max-width :80% ; 
+        
+    }
+    
+    figure {
+        margin: 0 ;
+        padding : 2% ;
+        margin : 2% ;
+        width : 45dvh ; 
+        border-radius: 15%;
+        background : black ;
+        color : white ;
+        display : grid;
+        
+    }
+    
+    .personnages {
+        display: grid ; 
+        grid-gap: 2em;
+        grid-template-columns: auto;
+        margin-left : 20%
+    }
+}
+
+@media (max-width : 483px ) {
+    body { 
+        font-size : 1.3em ;
+        margin-left : 5% ; 
+        margin-right : 5% ;
+        margin-top : auto ; 
+        margin-bottom : 5%; 
+        line-height: 1.5;
+        background-color: #226365 ; 
+        color : white ; 
+    }
+    h1 { 
+        font-size : 1.8em
+    }
+    img {
+        height :auto ; 
+        width : auto ; 
+        max-width :80% ; 
+        border-radius : 50%
+        
+    }
+    
+    figure {S
+        margin: 0 ;
+        width : none ; 
+        border-radius: none ; 
+        background-color: transparent ; 
+        color : white ;
+        display : grid;
+        
+    }
+    
+    .personnages {
+        display: grid ; 
+        grid-gap: 2em;
+        grid-template-columns: auto;
+        margin-left : 0%
+    }
+}
