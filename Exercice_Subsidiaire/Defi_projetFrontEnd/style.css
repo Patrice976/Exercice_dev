@@ -1,0 +1,85 @@
+:root {
+    --Desaturated-Red : hsl(0, 36%, 70%) ;
+    --Soft-Red : hsl(0, 93%, 68%) ;
+    --Dark-Grayish-Red : hsl(0, 6%, 24%) ; 
+    --Grandient-1 : Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%) ;
+    --Grandient-2 : Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+}
+
+* {
+    margin : 0 ;
+    padding : 0 ;
+}
+
+body {
+    background-image: url("images/bg-pattern-desktop.svg");
+    font-size: 16px ;
+    color : var(--Desaturated-Red) ; 
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.content {
+    display : flex ;
+
+}
+
+.message {
+    display : flex  ;
+    flex-direction: column  ;
+    margin-left : auto ; 
+    margin-right: auto ; 
+    padding : 2em ; 
+    margin : 4em ;
+}
+
+.logo {
+    height: 10%;
+    width : 30% ; 
+    margin-bottom : 10em ;
+    margin-top : -3em ;
+}
+
+
+.pinktxt { 
+    font-size : 7em ; 
+    font-weight: 100;
+}
+
+.bigtxt { 
+    font-size : 7em ;
+    font-weight:400; 
+    color : black ;
+    margin-bottom : 3%; 
+}
+
+.errortxt {
+    margin-bottom : 3%;
+}
+
+p {
+    width : 52% ;
+    line-height: 2em;
+}
+
+.inputmail {
+    width : 60% ;
+    border: 1px solid var(--Desaturated-Red);
+    padding : 1.5em ;
+    
+}
+
+.inputmail::placeholder {
+    color : var(--Desaturated-Red);
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.submitmail {
+    width : 15% ;
+    padding : 1.5em ; 
+    background: linear-gradient(90deg,var(--Desaturated-Red),var(--Soft-Red));
+    border-radius: 40%;
+    border : none ;
+    margin-left : -5%
+
+}
