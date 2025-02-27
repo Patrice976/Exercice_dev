@@ -11,7 +11,11 @@ function addTask() {
 
 <template>
   <p v-if="tasks.length === 0">Il n'y a aucune tâche à réaliser</p>
-  <p>{{ tasks }}</p>
+  <ul>
+    <li v-for="(toDo,index) in tasks" :key="index">
+      <input type="checkbox" /><span class="toDo">{{ toDo }}</span>
+    </li>
+  </ul>
 
   <form @submit.prevent="handleSubmit">
     <input type="text" v-model="task" placeholder="Inscrivez la tâche à ajouter dans la toDo" />
@@ -19,4 +23,7 @@ function addTask() {
   </form>
 </template>
 
-<style scoped></style>
+<style scoped>
+.toDo {
+  margin : 1rem
+}</style>
